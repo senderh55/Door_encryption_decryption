@@ -7,6 +7,8 @@ Cipher space:	Y = {0…25}
 Key space values: 	The key is a mXm matrix A whose elements are integers in Z26.
 
 The Encryption function defined by repeated encryption x1=ER(x0) is given by the following way: 
+
+
 Initial case - the first encryption R=1 :  x1 = x0 *A%N 
 And  for each R>=2 :  xR = (xR-1 *A+ xR-2)%N,.
 
